@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transections</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .container{
+            height: 100vh;
+            width: 210vh;
+            background-color: black;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+    
+        }
+        .box{
+            height: 300px;
+            width: 550px;
+            background-color: aqua;
+            overflow: hidden;
+            
+        }
+        .img{
+            height: 100%;
+            width: 100%;
+            transition: all 3s;
+
+        }
+        .img:hover{
+            /* transform: rotate(360deg); */
+            transform: scale(1.5); 
+            cursor: pointer;
+            /* transform: skewX(45deg); */
+            transform: translateY(500px);
+            transform: translate(1.5);
+            
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg5C1ZvRQN1S8wR6X3V3zNoxOAY6PTxWwiDA&usqp=CAU" class="img" alt=""></div>
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLmq3bR5g_sB8LREGLgoB9hQg3YZcr6dBSSw&usqp=CAU" class="img" alt=""></div>
+        <div class="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0moJbCBxnX7ySVGgaR4msMEirOabsFo9H4Q&usqp=CAU" class="img"></div>
+        <div class="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGoMl9H9CxSfToFvUR51Z_h1ci-Qg8js-CZg&usqp=CAU" class="img" alt=""></div>
+    
+    </div>
+    
+</body>
+</html>
