@@ -84,8 +84,8 @@ hr{
     width: 100%;
     display: flex;
     padding-left: 280px;
-
-
+    /* position: fixed; */
+    background-color: white;
 }
 .Dining{
     width: 15%;
@@ -129,17 +129,21 @@ hr{
     width: 100%;
     /* height: 10vh; */
     /* border: 2px solid black; */
+    background-color: rgba(243, 243, 243, 0.793);
+    
 }
 .collect1{
     width: 15%;
     padding-left: 20px;
     margin-left: 250px;
     /* border: 2px solid black; */
+    background-color: rgba(243, 243, 243, 0.793);
 }
 .pera{
     /* height: 10vh; */
     width: 100%;
     border: 2px solid black;
+    background-color: rgba(243, 243, 243, 0.793);
 }
 .pera1{
     width: 50%;
@@ -150,6 +154,50 @@ hr{
     font-size: 20px;
     padding-left: 15px;
 }
+.box-collect{
+    border: 2px solid blue;
+    width: 100%;
+    height: 50vh;
+    display:flex;
+    background-color: rgba(243, 243, 243, 0.793);
+    
+}
+.box-collect1{
+    border: 2px solid black;
+    height: 40vh;
+    background-color: black;
+
+}
+.box-collect2{
+    border: 2px solid black;
+    height: 40vh;
+    background-color: black;
+
+}
+.box-collect3{
+    border: 2px solid black;
+    height: 40vh;
+    background-color: black;
+
+}
+.box-collect4{
+    border: 2px solid black;
+    height: 40vh;
+    background-color: black;
+
+}
+.filter{
+    width: 80%;
+    border: 2px solid black;
+    height: 50vh;
+    display: flex;
+}
+.filt{
+    height: 10vh;
+    width: 50%;
+    border: 2px solid black;
+}
+
 
 
 
