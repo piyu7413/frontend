@@ -82,16 +82,20 @@ hr{
     padding: 10px;
     /* margin: 20px; */
     width: 100%;
-    display: flex;
-    padding-left: 200px;
-    /* position: fixed; */
+    /* display: flex; */
     background-color: white;
+    position: sticky;
+    top: 0px;
+}
+.button-box{
+    width: 75%;
+    border: 2px solid black;
 }
 .Dining{
     width: 15%;
     /* border: 2px solid black; */
     margin: 10px;
-    display: flex;
+    /* display: flex; */
     padding-left: 10px;
     
 }
@@ -129,7 +133,7 @@ hr{
     width: 100%;
     /* height: 10vh; */
     /* border: 2px solid black; */
-    background-color: rgba(243, 243, 243, 0.793);
+    background-color: rgb(248, 248, 248);
     
 }
 .collect1{
@@ -137,17 +141,19 @@ hr{
     padding-left: 20px;
     margin-left: 200px;
     /* border: 2px solid black; */
-    background-color: rgba(243, 243, 243, 0.793);
+    background-color: rgb(248, 248, 248);
+
 }
 .pera{
     /* height: 10vh; */
     width: 100%;
-    border: 2px solid black;
-    background-color: rgba(243, 243, 243, 0.793);
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    background-color: rgb(248, 248, 248);
 }
 .pera1{
-    width: 50%;
-    margin-left: 200px;
+    width: 75%;
     margin-top: 20px;
     color: rgb(115, 111, 111);
     /* border: 2px solid black; */
@@ -155,16 +161,20 @@ hr{
     padding-left: 15px;
 }
 .box-collect{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 100%;
     /* height: 50vh; */
     display: flex;
     justify-content: center;
-    background-color: rgba(243, 243, 243, 0.793);
+     background: rgb(248, 248, 248);
+     padding-bottom: 5vh;
+     padding-top: 5vh;
+     flex-wrap: wrap;
+     
     
 }
 .box-collect2{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     height: 40vh;
     width: 75%;
     display: flex;
@@ -172,7 +182,7 @@ hr{
 
 }
  .box-collect-A{
-    border: 1PX solid black;
+    /* border: 1PX solid black; */
     width: 22%;
      height: 100%;
      background-image: url(hotel.avif);
@@ -216,12 +226,21 @@ hr{
      /* border: 2px solid black;  */
      display: flex;
      justify-content: center;
+     position:sticky;
+     top: 0px;
+     background-color: #fff;
 }
 .filt{ 
      height: 10vh; 
      width: 75%;
-     border: 2px solid black;  
-    padding-top: 20px;
+     /* border: 2px solid black;   */
+    /* padding-top: 20px; */
+    display: flex;
+    align-items: center ;
+    /* position:sticky;
+    top: 0px;
+    z-index: 0; */
+
     /* display: flex; justify-content: space-around; */
     
 
@@ -232,6 +251,7 @@ hr{
     /* border: 2px solid blue; */
     display: flex;
     justify-content: center;
+
     
 }
 .disc{
@@ -244,9 +264,11 @@ hr{
 .ptag{
     width: 100%;
     /* border: 2px solid black; */
-    /* height: 40vh; */
+    /* height: 30vh; */
     display: flex;
     justify-content: center;
+    align-items: center;
+    
 }
 .p{
     width: 75%;
@@ -265,7 +287,7 @@ hr{
 }
 .rest{
     width:75%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     /* height: 50vh; */
     display: flex;
     justify-content: space-between;
@@ -295,11 +317,11 @@ hr{
     width: 100%;
     display: flex;
     justify-content: center;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 .food-1{
     width:75%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     height: 50vh;
     display: flex;
     justify-content: space-between;
@@ -309,12 +331,16 @@ hr{
 .foodA{
     width: 32%;
     /* height: 50vh; */
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    padding: 8px;
+    border-radius: 20px;
+    
 }
 .food-a{
     height: 70%;
     width: 100%;
-    border: 2px solid blue;
+    /* border: 2px solid blue;   */
+    border-radius: 10px;
 
 }
 .menu-2{
@@ -346,7 +372,7 @@ hr{
 }
 
 .menu-3{
-    height: 80vh;
+    /* height: 80vh; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -371,6 +397,68 @@ hr{
     width: 100%;
     border: 2px solid blue;
 
+}
+.menu-4{
+    /* height: 80vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue;
+}
+.food-4{
+    width:75%;
+    border: 2px solid blue;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.foodD{
+    width: 32%;
+    /* height: 50vh; */
+    border: 2px solid blue;
+}
+.food-g{
+    height: 70%;
+    width: 100%;
+    border: 2px solid blue;
+
+}
+.menu-5{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue;
+}
+.food-5{
+    width:75%;
+    border: 2px solid blue;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.foodE{
+    width: 32%;
+    /* height: 50vh; */
+    border: 2px solid blue;
+}
+.food-i{
+    height: 70%;
+    width: 100%;
+    border: 2px solid blue;
+
+}
+.foodA:hover{
+    /* border: 6px solid #363636; */
+    box-shadow: 0px 0px 20px rgb(207, 207, 207);
+
+}
+.food-a img{
+    border-radius: 20px;
 }
 
 
