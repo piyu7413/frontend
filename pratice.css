@@ -82,20 +82,22 @@ hr{
     padding: 10px;
     /* margin: 20px; */
     width: 100%;
-    /* display: flex; */
+    /* margin-left: 200px; */
+    display: flex;
     background-color: white;
     position: sticky;
     top: 0px;
 }
-.button-box{
-    width: 75%;
-    border: 2px solid black;
-}
+/* .button-box{ */
+    /* width: 75%; */
+    /* border: 2px solid black; */
+
 .Dining{
     width: 15%;
     /* border: 2px solid black; */
     margin: 10px;
-    /* display: flex; */
+    display: flex;
+    margin-left: 200px;
     padding-left: 10px;
     
 }
@@ -251,7 +253,6 @@ hr{
     /* border: 2px solid blue; */
     display: flex;
     justify-content: center;
-
     
 }
 .disc{
@@ -259,6 +260,8 @@ hr{
     /* height: 30vh; */
     /* border: 2px solid black; */
     padding-top: 20px;
+     padding: 8px;
+    border-radius: 20px;
 
 }
 .ptag{
@@ -296,22 +299,16 @@ hr{
 .rest-1{
     width: 32%;
     /* height: 50vh; */
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    padding: 8px;
+    border-radius: 20px;
 }
 .rest-a{
     height: 70%;
     width: 100%;
-     border: 2px solid blue;
+     /* border: 2px solid blue; */
 
 }
-/* .rest-2{
-    width: 30%;
-    border: 2px solid blue;
-}
-.rest-3{
-    width: 30%;
-    border: 2px solid blue;
-} */
 .menu-1{
     /* height: 80vh; */
     width: 100%;
@@ -322,7 +319,7 @@ hr{
 .food-1{
     width:75%;
     /* border: 2px solid blue; */
-    height: 50vh;
+    /* height: 50vh; */
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
@@ -348,12 +345,12 @@ hr{
     width: 100%;
     display: flex;
     justify-content: center;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 .food-2{
     width:75%;
-    border: 2px solid blue;
-    height: 50vh;
+    /* border: 2px solid blue; */
+    /* height: 50vh; */
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
@@ -362,12 +359,15 @@ hr{
 .foodB{
     width: 32%;
     /* height: 50vh; */
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    padding: 8px;
+    border-radius: 20px;
+
 }
 .food-c{
     height: 70%;
     width: 100%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 
 }
 
@@ -376,12 +376,12 @@ hr{
     width: 100%;
     display: flex;
     justify-content: center;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 .food-3{
     width:75%;
-    border: 2px solid blue;
-    height: 50vh;
+    /* border: 2px solid blue; */
+    /* height: 50vh; */
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
@@ -390,12 +390,14 @@ hr{
 .foodC{
     width: 32%;
     /* height: 50vh; */
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    padding: 8px;
+    border-radius: 20px;
 }
 .food-e{
     height: 70%;
     width: 100%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 
 }
 .menu-4{
@@ -403,12 +405,12 @@ hr{
     width: 100%;
     display: flex;
     justify-content: center;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 .food-4{
     width:75%;
-    border: 2px solid blue;
-    height: 50vh;
+    /* border: 2px solid blue; */
+    /* height: 50vh; */
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
@@ -417,40 +419,24 @@ hr{
 .foodD{
     width: 32%;
     /* height: 50vh; */
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    padding: 8px;
+    border-radius: 20px;
 }
 .food-g{
     height: 70%;
     width: 100%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 
 }
-.menu-5{
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    border: 2px solid blue;
-}
-.food-5{
-    width:75%;
-    border: 2px solid blue;
-    height: 50vh;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
+
+.rest-1:hover{
+    /* border: 6px solid #363636; */
+    box-shadow: 0px 0px 20px rgb(207, 207, 207);
 
 }
-.foodE{
-    width: 32%;
-    /* height: 50vh; */
-    border: 2px solid blue;
-}
-.food-i{
-    height: 70%;
-    width: 100%;
-    border: 2px solid blue;
-
+.rest-a img{
+    border-radius: 20px;
 }
 .foodA:hover{
     /* border: 6px solid #363636; */
@@ -459,6 +445,66 @@ hr{
 }
 .food-a img{
     border-radius: 20px;
+}
+.foodB:hover{
+    /* border: 6px solid #363636; */
+    box-shadow: 0px 0px 20px rgb(207, 207, 207);
+
+}
+.food-c img{
+    border-radius: 20px;
+}
+.foodC:hover{
+    /* border: 6px solid #363636; */
+    box-shadow: 0px 0px 20px rgb(207, 207, 207);
+
+}
+.food-d img{
+    border-radius: 20px;
+}
+.foodD:hover{
+    /* border: 6px solid #363636; */
+    box-shadow: 0px 0px 20px rgb(207, 207, 207);
+
+}
+.food-g img{
+    border-radius: 20px;
+}
+.footer{
+    /* border: 2px solid black; */
+    width: 100%;
+    /* height: 40vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(248, 248, 248);
+
+}
+.footer-1{
+    width: 75%;
+    /* border: 2px solid black; */
+    /* height: 50px; */
+    margin-top: 40px;
+}
+.footer-2{
+    width: 100%;
+    /* border: 2px solid black; */
+    /* height: 40vh; */
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+
+}
+.inner-box{
+    border: 1px solid black;
+    height: 10vh;
+    width: 75%;
+    margin-top: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding-left: 25px;
 }
 
 
